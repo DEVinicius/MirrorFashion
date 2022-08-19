@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+body main h1 {
+  background-image: url("/img/sobre-background.jpg");
+}
+body main h2 {
+  border-bottom: 2px solid #333333;
+}
+body main p {
+  word-spacing: 5px;
+  margin: 15px 0;
+}
+body main figure {
+  margin: 15px 10px;
+  background-color: #F2EDED;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+body main figcaption {
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */
