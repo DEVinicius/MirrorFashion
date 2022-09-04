@@ -1,36 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import '../library/index';
 
 body {
-    color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: $colorText;
+    font-family: $bodyFontFamily;
+    margin: 0 auto;
+    max-width: 940px;
+
     main {
+        
         h1 {
             background-image: url("/img/sobre-background.jpg");
+            padding: 10px;
+            font-family: serif;
         }
 
         h2 {
-            border-bottom: 2px solid #333333;
+            border-bottom: 2px solid $colorText;
+            margin-top: 30px;
+            font-family: sans-serif;
         }
 
         p {
             word-spacing: 5px; 
+            text-indent: 15px;
             margin: 15px 0;
+
+            padding: 0 45px 0 45px;
         }
 
         figure {
-            margin: 15px 10px;
-            background-color: #F2EDED;
+            background-color: $backgroundImageColor;
             border: 1px solid #ccc;
             text-align: center;
+            padding: 15px;
+            margin: 30px;
+
+            figcaption {
+                margin-top: 10px;
+                font-style: italic;
+            }
         }
 
-        figcaption {
-            font-style: italic;
+        #centro-distribuicao {
+            margin: 0 auto;
+            width: 550px;
         }
-            
+
+        #familia-pelho {
+            float: right;
+            margin: 0 0 10px 10px;
+        }
+    }
+
+    footer {
+        color: $footerColorText;
+        margin: 30px 0;
+        padding: 30px 0;
+
+        img {
+            margin-right: 30px;
+            vertical-align: middle;
+            width: 94px;
+        }
     }
 }
