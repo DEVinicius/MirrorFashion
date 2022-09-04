@@ -52,13 +52,28 @@ body {
   color: #333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+body header {
+  position: relative;
+}
 body .sacola {
   background: url("/img/sacola.png") no-repeat;
   background-position: top right;
   font-size: 14px;
-  padding: 8px 35px 8px 0;
+  padding: 8px 35px 50px 0;
   text-align: right;
   width: 140px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+body .menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 body .menu-opcoes ul {
   font-size: 15px;

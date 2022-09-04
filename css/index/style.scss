@@ -4,16 +4,33 @@ body {
     color: $colorText;
     font-family: $bodyFontFamily;
 
+    header {
+        position: relative;
+    }
+
     .sacola {
         background: $imageCart no-repeat;
         background-position: top right;
         font-size: 14px;
-        padding: 8px 35px 8px 0;
+        padding: 8px 35px 50px 0;
         text-align: right;
         width: 140px;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 940px;
     }
 
     .menu-opcoes {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
         ul {
             font-size: 15px;
             li {
